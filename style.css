@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 10px 20px;
+    height: 100px;
+}
+
+.logo img {
+    height: 60px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.nav-links li {
+    margin: 0 15px;
+    font-size: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: rgb(70, 70, 70);
+    padding: 10px;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.nav-links a:hover {
+    color: #383fb5;
+}
+.search-box {
+    position: relative;
+    margin-right: 100px;
+    justify-content: center;
+}
+
+.search-box input {
+    padding: 15px;
+    font-size: 16px;
+    width: 290px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.search-box input:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.search-box i {
+    position: absolute;
+    left: 250px; 
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+    color: #000000;
+    font-size: 17px;
+    z-index: 1;
+}
+
+.login-button button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #6b71d4;
+    color: white;
+    border: none;
+    border-radius: 13px;
+    width: 110px;
+    height: 45px;
+    cursor: pointer;
+}
+
+.login-button button:hover {
+    background-color: #0056b3;
+}
+
+.section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.content {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.content h1 {
+    font-size: 45px;
+    margin-bottom: 10px;
+    color: #595fd1;
+    margin-left: 170px;
+    margin-right: 120px;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.content p {
+    font-size: 18px;
+    color: #666;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 170px;
+}
+
+.content .search-box{
+    margin-left: 170px;
+}
+
+.content .search-box input{
+    height: 30px;
+    padding: 15px;
+    font-size: 16px;
+    width: 340px;
+    height: 35px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.get-started-button {
+    padding: 5px;
+    font-size: 16px;
+    background-color: #6b71d4;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    width: 200px;
+    height: 45px;
+    cursor: pointer;
+    margin-left:170px;
+    margin-top: 15px;
+}
+
+.get-started-button:hover {
+    background-color: #373fd7;
+}
+
+.image {
+    flex: 1;
+    text-align: right;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.browse {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.browse h1 {
+    font-size: 35px;
+    margin-bottom: 10px;
+    color: #6b71d4;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.browse p {
+    font-size: 17px;
+    color: #666;
+    margin-bottom: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.browse .input-group {
+    display: flex;
+    align-items: center;
+    width: 900px;
+    height: 60px;
+    margin: 0 auto;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.browse .input-group .form-control {
+    border: none;
+    height: 60px;
+    width: 500px;
+}
+
+.browse .input-group .form-select-price {
+    color: red;
+    height: 60px;
+    margin-left: 5px;
+    border: 1px solid #ebebeb;
+}
+
+.browse .input-group .form-select-days {
+    color: rgb(46, 46, 203);
+    height: 60px;
+    margin-left: 5px;
+    border: 1px solid #ebebeb;
+    overflow: hidden;
+}
+
+.sell {
+    display: flex;
+    justify-content: space-around; 
+    flex-wrap: wrap; 
+    margin-top: 50px;
+}
+
+.card {
+    margin-bottom: 20px; 
+    width: 24rem;
+    border: 7px solid #ddd;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: row;
+}
+
+.card h6{
+    padding: 15px;
+    text-align: start; 
+    color:#6b71d4;
+}
+
+.card-body p{
+    color: #000000;
+    font-size: 17px;
+}
+
+.card-footer{
+    background-color: #6b71d4;
+}
+
+.card-footer .btn-block {
+    width: 100%; 
+    padding: 10px 0;
+    padding: 5px;
+    font-size: 16px;
+    background-color: #6b71d4;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.card-body .card-price{
+    display: flex;
+    flex-direction: row;
+}
+
+.card-body .card-right{
+    margin-left: 50px;
+}
+
+.renting-buying h1{
+    font-weight: bold;
+    margin-right: 7px;
+}
+
+.renting-buying{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
+
+.vs{
+    margin-top: none;
+    text-align: center;
+}
+
+.benefits {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center; 
+}
+
+.benefits .container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.benefits .card {
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 450px;
+    height: 160px;
+    margin-left: 60px; 
+    margin-right: 150px; 
+    display: flex;
+    flex-direction: row;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.benefits .card:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.benefits .card-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.benefits h5 {
+    color: #595fd1;
+    font-weight: bold;
+}
+
+.benefits .card-text {
+    font-size: 13px;
+    color: #000000;
+    margin-bottom: 0;
+}
+
+.benefits .card-small {
+    font-size: 9px;
+    font-weight: bold;
+    background-color: #b1b1b176;
+    border-radius: 5px;
+    display: inline-block; 
+    padding: 0.5rem;
+    margin-right: 0.5rem;
+    margin-left: 17px;
+}
+
+.benefits .row {
+    margin-right: 60px; 
+}
