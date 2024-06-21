@@ -4,7 +4,7 @@ This project demonstrates how to create a text element with an animated rainbow 
 
 ## Link for GitPages:
 
-![Rainbow Text Animation](screenshot.png)
+https://guilhermestrata.github.io/GS-front/
 
 ## Features
 
