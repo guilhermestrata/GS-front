@@ -48,6 +48,7 @@ body {
 .nav-links a:hover {
     color: #383fb5;
 }
+
 .search-box {
     position: relative;
     margin-right: 100px;
@@ -71,7 +72,7 @@ body {
 
 .search-box i {
     position: absolute;
-    left: 250px; 
+    left: 250px;
     top: 50%;
     transform: translateY(-50%);
     pointer-events: none;
@@ -127,11 +128,11 @@ body {
     margin-left: 170px;
 }
 
-.content .search-box{
+.content .search-box {
     margin-left: 170px;
 }
 
-.content .search-box input{
+.content .search-box input {
     height: 30px;
     padding: 15px;
     font-size: 16px;
@@ -152,7 +153,7 @@ body {
     width: 200px;
     height: 45px;
     cursor: pointer;
-    margin-left:170px;
+    margin-left: 170px;
     margin-top: 15px;
 }
 
@@ -225,39 +226,39 @@ body {
 
 .sell {
     display: flex;
-    justify-content: space-around; 
-    flex-wrap: wrap; 
+    justify-content: space-around;
+    flex-wrap: wrap;
     margin-top: 50px;
 }
 
 .card {
-    margin-bottom: 20px; 
+    margin-bottom: 20px;
     width: 24rem;
     border: 7px solid #ddd;
 }
 
-.card-body{
+.card-body {
     display: flex;
     flex-direction: row;
 }
 
-.card h6{
+.card h6 {
     padding: 15px;
-    text-align: start; 
-    color:#6b71d4;
+    text-align: start;
+    color: #6b71d4;
 }
 
-.card-body p{
+.card-body p {
     color: #000000;
     font-size: 17px;
 }
 
-.card-footer{
+.card-footer {
     background-color: #6b71d4;
 }
 
 .card-footer .btn-block {
-    width: 100%; 
+    width: 100%;
     padding: 10px 0;
     padding: 5px;
     font-size: 16px;
@@ -268,21 +269,21 @@ body {
     cursor: pointer;
 }
 
-.card-body .card-price{
+.card-body .card-price {
     display: flex;
     flex-direction: row;
 }
 
-.card-body .card-right{
+.card-body .card-right {
     margin-left: 50px;
 }
 
-.renting-buying h1{
+.renting-buying h1 {
     font-weight: bold;
     margin-right: 7px;
 }
 
-.renting-buying{
+.renting-buying {
     margin-top: 150px;
     display: flex;
     flex-direction: row;
@@ -290,7 +291,7 @@ body {
     justify-content: center;
 }
 
-.vs{
+.vs {
     margin-top: none;
     text-align: center;
 }
@@ -298,10 +299,10 @@ body {
 .benefits {
     margin-top: 80px;
     display: flex;
-    justify-content: center; 
+    justify-content: center;
 }
 
-.benefits .container{
+.benefits .container {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -312,15 +313,15 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     width: 450px;
     height: 160px;
-    margin-left: 60px; 
-    margin-right: 150px; 
+    margin-left: 60px;
+    margin-right: 150px;
     display: flex;
     flex-direction: row;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .benefits .card:hover {
-    transform: scale(1.05); 
+    transform: scale(1.05);
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 
@@ -345,12 +346,213 @@ body {
     font-weight: bold;
     background-color: #b1b1b176;
     border-radius: 5px;
-    display: inline-block; 
+    display: inline-block;
     padding: 0.5rem;
     margin-right: 0.5rem;
     margin-left: 17px;
 }
 
 .benefits .row {
-    margin-right: 60px; 
+    margin-right: 60px;
+}
+
+.platform-statistics {
+    margin-top: 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.platform-statistics h1 {
+    font-weight: bold;
+}
+
+.statistics-cards .card-body-statistics {
+    display: flex;
+    flex-direction: column;
+    margin-top: 13px;
+}
+
+.statistics-cards {
+    display: flex;
+    flex-direction: row;
+    margin: 100px;
+    justify-content: space-evenly;
+}
+
+.statistics-cards .card {
+    height: 120px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.statistics-cards .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.statistics-cards .card p {
+    margin-left: 15px;
+    font-size: 15px;
+}
+
+.card-body-statistics h5 {
+    padding: 0px;
+    margin-left: 15px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.statistics img {
+    width: 1400px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 200px;
+}
+
+.imagem {
+    text-align: center;
+}
+
+.statistics {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #bf71ff;
+    padding: 20px;
+    height: 100vh;
+    width: 90%;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-bottom: 200px;
+}
+
+.form-instrument {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.form-instrument h1 {
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: white;
+    margin-right: 200px;
+}
+
+.form-instrument p {
+    margin-bottom: 20px;
+    color: white;
+}
+
+.mb-3 {
+    margin-bottom: 20px;
+}
+
+.mb-3 label {
+    color: white;
+}
+
+.mb-3 input {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.get-started {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #6b71d4;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+
+.form-instrument-image img {
+    width: 70%;
+    height: 100vh;
+    border-radius: 8px;
+    margin-left: 300px;
+}
+
+.buttons-table {
+    margin-left: 35px;
+    margin-bottom: 80px;
+}
+
+.buttons-table .btn-custom-purple {
+    background-color: white;
+    color: #6b71d4;
+    border-color: #6b71d4;
+}
+
+.buttons-table .btn-custom-purple:hover {
+    background-color: #5a60b8;
+    color: white;
+}
+
+.table {
+    justify-content: center;
+}
+
+.table td {
+    text-align: center;
+}
+
+.table th {
+    text-align: center;
+}
+
+.table-things img {
+    width: 100%;
+}
+
+.rainbow-text {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5baff;
+    font-size: 80px;
+    font-weight: bold;
+    background-image: linear-gradient(90deg, 
+                                      red, 
+                                      orange, 
+                                      yellow, 
+                                      green, 
+                                      blue, 
+                                      indigo, 
+                                      violet);
+    background-size: 400%; 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    animation: rainbow 5s linear infinite;
+}
+
+@keyframes rainbow {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
 }
