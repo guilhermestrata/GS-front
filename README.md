@@ -2,7 +2,7 @@
 
 This project demonstrates how to create a text element with an animated rainbow gradient effect using HTML and CSS. The text is centered both horizontally and vertically on the page.
 
-## Preview
+## Link for GitPages:
 
 ![Rainbow Text Animation](screenshot.png)
 
